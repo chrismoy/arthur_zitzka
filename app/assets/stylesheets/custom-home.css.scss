@@ -1,0 +1,183 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Cantarell:400,700);
+
+.logoImg {
+  height: 100px;
+}
+
+.btn {
+  transition: all .1s linear;
+}
+
+$gray-medium-light: #eaeaea;
+
+/* universal */
+html {
+  overflow-y: scroll;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /*padding-top: 206px;*/
+  margin: 0 0 150px 0;
+  font-family: 'Cantarell', sans-serif;
+  background-color: #F1EFEA;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  letter-spacing: -1px;
+  /*margin-bottom: 30px;*/
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  /*float: left;*/
+  margin-right: 10px;
+  height: 100px;
+  padding: 0;
+}
+
+header {
+  /*height: 100px;*/
+  text-align: center;
+  padding: 40px;
+  position: static;
+  #nameBox {
+    display: inline-block;
+    
+    vertical-align: middle;
+    h1, h2 {
+      display: block;
+      margin: 0;
+    }
+  }
+}
+
+.nav {
+  li {
+    top: 25px;
+    a {
+      color: #222;
+      &:hover {
+        color: #222;
+        background-color: white;
+      }
+    }
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 150px;
+  width: 100%;
+
+  .container {
+    /*border-top: 1px solid #EEE;*/
+    padding: 30px 10px 0 10px;
+  }
+
+  #footerContact {
+    display: block;
+    float:left;
+    margin: 0 0 25px 0;
+    p {
+      display: block;
+      margin: 0;
+      &:last-child {
+        /*border-right: none;*/
+      }
+    }
+  }
+
+  #socialButtons {
+    display: block;
+    /*text-align: center;*/
+    float: right;
+  }
+
+
+}
+
+.btn-social {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0;
+  padding: 5px 8px;
+}
+
+.btn-social:hover {
+  background-color: black;
+  color: white;
+}
+
+footer .btn {
+  margin-right: 10px;
+}
+
+/* Main */
+
+.jumbotron {
+  background-image: url('/assets/tattooShop.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.container .jumbotron {
+  border-radius: 0;
+}
+
+
+
+
+
+
+
+
