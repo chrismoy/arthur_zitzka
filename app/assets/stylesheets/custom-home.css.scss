@@ -81,7 +81,7 @@ p {
 }
 
 header {
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
   position: static;
   #nameBox {
     display: inline-block;
@@ -100,19 +100,27 @@ header {
 
 /* Tabs */
 
-.nav-tabs {
+
+
+/* .nav-tabs {
   border-bottom: 1px solid transparent;
+  overflow: auto;
   li {
     a {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       border-radius: 0;
+      border: 0 solid black;
       color: black;
       background-color: white;
       transition: all .1s linear;
+      &:hover {
+        /*border-width: 2px 0 0 0;
+        background-color: white;
+      }
     }
   }
-}
+} */
 
 /* footer */
 
@@ -164,23 +172,23 @@ footer {
   width: 38px;
   height: 36px;
   padding: 6px 9px;
+  margin-left: 15px;
   &:hover {
     background-color: black;
     color: white;
   }
 }
 
-.btn-nav {
-  height: auto;
-  width: auto;
-  padding: 5px 8px;
-}
-
 /* Main */
 
-.jumbotron {
+.homeJumbo {
   background-image: image-url('tattooShop.jpg');
   background-size: cover;
+  height: 600px;
+}
+
+.aboutJumbo, .galleryJumbo,  {
+  border: 1px solid #EEE;
   height: 600px;
 }
 
