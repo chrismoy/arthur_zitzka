@@ -20,10 +20,10 @@ html {
 }
 
 body {
-  /*padding-top: 206px;*/
   margin: 0 0 150px 0;
   font-family: 'Cantarell', sans-serif;
-  background-color: #F1EFEA;
+  /*background-color: #F1EFEA;*/
+
 }
 
 section {
@@ -81,8 +81,6 @@ p {
 }
 
 header {
-  /*height: 100px;*/
-  /*text-align: center;*/
   padding: 40px 0;
   position: static;
   #nameBox {
@@ -94,17 +92,24 @@ header {
       margin: 0;
     }
   }
+
+  .navbar {
+    display: inline-block;
+  }
 }
 
-.nav {
+/* Tabs */
+
+.nav-tabs {
+  border-bottom: 1px solid transparent;
   li {
-    top: 25px;
     a {
-      color: #222;
-      &:hover {
-        color: #222;
-        background-color: white;
-      }
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      color: black;
+      background-color: white;
+      transition: all .1s linear;
     }
   }
 }
@@ -119,9 +124,15 @@ footer {
   height: 150px;
   width: 100%;
 
+  &:btn {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
   .container {
-    /*border-top: 1px solid #EEE;*/
-    padding: 30px 15px 0 15px;
+    padding: 15px 15px 0 15px;
   }
 
   #footerContact {
@@ -131,8 +142,9 @@ footer {
     p {
       display: block;
       margin: 0;
-      &:last-child {
-        /*border-right: none;*/
+
+      &:first-child {
+        font-weight: bold;
       }
     }
   }
@@ -142,8 +154,6 @@ footer {
     /*text-align: center;*/
     float: right;
   }
-
-
 }
 
 .btn-social {
@@ -151,21 +161,19 @@ footer {
   color: black;
   border: 2px solid black;
   border-radius: 0;
-  padding: 5px 8px;
   width: 38px;
   height: 36px;
-}
-
-.btn-social:hover {
-  background-color: black;
-  color: white;
-}
-
-footer .btn {
-  margin-right: 10px;
-  &:last-child {
-    margin-right: 0;
+  padding: 6px 9px;
+  &:hover {
+    background-color: black;
+    color: white;
   }
+}
+
+.btn-nav {
+  height: auto;
+  width: auto;
+  padding: 5px 8px;
 }
 
 /* Main */
