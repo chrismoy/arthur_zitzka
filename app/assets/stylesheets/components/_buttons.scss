@@ -1,0 +1,17 @@
+.btn {
+  transition: all .2s;
+}
+
+.btn-social {
+  $size: 40px;
+
+  border: 2px solid black;
+  color: black;
+  border-radius: 1px;
+  height: $size;
+  width: $size;
+  &:hover {
+    background: black;
+    color: white;
+  }
+}

@@ -1,0 +1,21 @@
+.homeJumbo {
+  background: white;
+  padding: 0;
+  .carousel {
+
+    .carousel-inner {
+      .item {
+        @include transition(2s ease-in-out left);
+        img {
+          display: block;
+          width: 500px;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .carousel-control.left, .carousel-control.right {
+      background-image: none
+    }
+  }
+}

@@ -1,0 +1,15 @@
+footer {
+  #footerContact {
+    display: inline-block;
+    font-size: 18px;
+  }
+  #socialButtons {
+    display: inline-block;
+    float: right;
+    vertical-align: bottom;
+    .btn-social {
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+  }
+}
