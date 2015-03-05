@@ -3,6 +3,7 @@ header {
   #nameBox {
     display: inline-block;
     height: 66px;
+    vertical-align: top;
     a{
       text-decoration: none;
       .name {
@@ -17,6 +18,24 @@ header {
           border-color: white;
           box-shadow: 0 0 0 3px black;
         }
+      }
+    }
+  }
+  .menu {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    @media (min-width: $screen-md) { float: right };
+    .menu-item {
+      display: inline-block;
+      margin: 0 10px;
+      color: black;
+      &:hover {
+        border-bottom: $border-default;
+      }
+      .menu-header {
+        font-size: 20px;
       }
     }
   }

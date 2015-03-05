@@ -5,5 +5,17 @@
         <h1 class="name">Arthur Zitzka</h1>
       <% end %>
     </div>
+
+    <ul class="menu">
+      <%= link_to gallery_url do %>
+        <li class="menu-item"><h2 class="menu-header">Gallery</h2></li>
+      <% end %>
+      <%= link_to about_url do %>
+        <li class="menu-item"><h2 class="menu-header">About</h2></li>
+      <% end %>
+      <%= link_to contact_url do %>
+        <li class="menu-item"><h2 class="menu-header">Contact</h2></li>
+      <% end %>
+    </ul>
   </div>
 </header>
