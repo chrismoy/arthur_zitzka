@@ -1,15 +1,19 @@
 header {
+
   #logoImg {
     width: 100px;
   }
 
   #nameBox {
     display: inline-block;
-    .name {
-      margin: 0;
-    }
-    .tag-line {
-      margin: 0;
+    a{
+      text-decoration: none;
+      .name {
+        margin: 0;
+        padding: 8px 10px 10px 10px;
+        border: 4px solid black;
+        color: black;
+      }
     }
   }
 }
