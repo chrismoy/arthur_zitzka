@@ -4,6 +4,7 @@ header {
     display: inline-block;
     height: 66px;
     vertical-align: top;
+    @media (max-width: $screen-md-max) { margin-bottom: 40px; };
     a{
       text-decoration: none;
       .name {
