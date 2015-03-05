@@ -2,6 +2,7 @@ header {
   @media (max-width: $screen-md-max) { text-align: center };
   #nameBox {
     display: inline-block;
+    height: 66px;
     a{
       text-decoration: none;
       .name {
