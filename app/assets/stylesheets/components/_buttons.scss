@@ -3,7 +3,7 @@
 }
 
 .btn-social {
-  $size: 40px;
+  $size: 43px;
 
   border: 2px solid black;
   color: black;
@@ -13,5 +13,6 @@
   &:hover {
     background: black;
     color: white;
+    height: $size + 10px;
   }
 }

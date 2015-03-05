@@ -6,10 +6,15 @@ footer {
   #socialButtons {
     display: inline-block;
     float: right;
-    vertical-align: bottom;
+    height: 60px;
+    text-align: center;
     .btn-social {
       margin-left: 20px;
       line-height: 1.6;
+      vertical-align: top;
+      i {
+        margin-top: 8px;
+      }
     }
   }
 }
