@@ -23,6 +23,7 @@
     padding: 10px;
     border: $border-default;
     border-right-width: 0;
+    @media (max-width: $screen-xs-max) { display: none; };
     p {
       margin: 0;
       font-size: 10px;
