@@ -1,7 +1,5 @@
 header {
-  #logoImg {
-    width: 100px;
-  }
+  @media (max-width: $screen-md-max) { text-align: center };
   #nameBox {
     display: inline-block;
     a{

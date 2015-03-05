@@ -1,20 +1,23 @@
 footer {
+  @media (max-width: $screen-sm-max) { text-align: center };
   #footerContact {
     display: inline-block;
     font-size: 18px;
     text-align: center;
     padding: 5px 10px 0 10px;
     border: $border-default;
+    @media (max-width: $screen-sm-max) { margin-bottom: 40px; };
   }
   #socialButtons {
     display: inline-block;
-    float: right;
     height: 60px;
     text-align: center;
+    @media (min-width: $screen-md) { float: right };
     .btn-social {
       margin-left: 20px;
       line-height: 1.6;
       vertical-align: top;
+      @media (max-width: $screen-sm-max) { margin: 0 10px; };
       i {
         margin-top: 8px;
       }
